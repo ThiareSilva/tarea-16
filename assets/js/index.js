@@ -22,6 +22,7 @@ async function monedas() {
     return apiJson;
   } catch (e) {
     console.log(e);
+    resultadoFinal.innerHTML = (e)
   }
 }
 
